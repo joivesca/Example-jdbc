@@ -13,7 +13,7 @@ import mx.com.mx.chilitech.repository.StudentRepository;
 public class StudentController extends HttpServlet {
 	private StudentRepository studentRepository;
 	
-	private static String STUDENT_SIGNUP = "contents/signup.jsp";
+	private static String STUDENT_SIGNUP = "contents/signups.jsp";
 	private static String STUDENT_LOGIN  = "contents/login.jsp";
 	private static String LOGIN_SUCCESS  = "contents/success.jsp";
 	private static String LOGIN_FAILURE  = "contents/failure.jsp"; 
